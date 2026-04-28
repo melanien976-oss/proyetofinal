@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITLA - Inicio</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(255, 0, 0, 0.884), rgb(0, 18, 99)),
+                        url('img/itla.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 90vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            transition: 0.3s;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">ITLA</a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+
+    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+
+    <!-- DROPDOWN -->
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+            Sobre ITLA
+        </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="quienes.html">Quiénes somos</a></li>
+            <li><a class="dropdown-item" href="historia.html">Historia</a></li>
+            <li><a class="dropdown-item" href="rectoria.html">Rectoría</a></li>
+            <li><a class="dropdown-item" href="calidad.html">Calidad en la gestión</a></li>
+        </ul>
+    </li>
+
+    <li class="nav-item"><a class="nav-link" href="oferta.html">Oferta Académica</a></li>
+    <li class="nav-item"><a class="nav-link" href="cafe.html">Café Digital</a></li>
+    <li class="nav-item"><a class="nav-link" href="transparencia.html">Transparencia</a></li>
+    <li class="nav-item"><a class="nav-link" href="gestion.html">Gestión</a></li>
+    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+
+</ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="container">
+        <h1>Tu futuro tecnológico empieza aquí</h1>
+        <p class="mt-3 fs-5">
+            Formación de alto nivel en innovación, tecnología y desarrollo profesional.
+        </p>
+        <a href="oferta.html" class="btn btn-primary btn-lg mt-3">Explorar Carreras</a>
+    </div>
+</section>
+
+<!-- INFO -->
+<section class="container my-5 text-center">
+    <h2 class="mb-4">¿Por qué elegir ITLA?</h2>
+
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="card shadow p-3 h-100">
+                <h5>Innovación</h5>
+                <p>Ambiente moderno con tecnología avanzada.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow p-3 h-100">
+                <h5>Alta Demanda</h5>
+                <p>Carreras alineadas al mercado laboral actual.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow p-3 h-100">
+                <h5>Oportunidades</h5>
+                <p>Preparación real para el mundo profesional.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- CARRERAS -->
+<section class="bg-light py-5">
+    <div class="container text-center">
+        <h2 class="mb-4">Carreras Destacadas</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="img/software.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Desarrollo de Software</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="img/redes.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Redes</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="img/ia.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Inteligencia Artificial</h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="bg-primary text-white text-center p-5">
+    <h2>Inscríbete hoy</h2>
+    <p>Empieza tu camino en la tecnología con nosotros</p>
+    <a href="contacto.html" class="btn btn-light">Contáctanos</a>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center p-4">
+    <p>© 2026 ITLA - Rediseño Bootstrap</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
