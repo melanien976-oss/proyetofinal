@@ -3,11 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Historia</title>
+    <title>Historia - ITLA</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <h1>Historia</h1>
-    <p>Contenido de la página de historia.</p>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">ITLA</a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="quienes.html">Quiénes Somos</a></li>
+                <li class="nav-item"><a class="nav-link" href="historia.html">Historia</a></li>
+                <li class="nav-item"><a class="nav-link" href="oferta.html">Oferta Académica</a></li>
+                <li class="nav-item"><a class="nav-link" href="cafe.html">Café Digital</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+
+                <!-- NUEVAS -->
+                <li class="nav-item"><a class="nav-link" href="transparencia.html">Transparencia</a></li>
+                <li class="nav-item"><a class="nav-link" href="gestion.html">Gestión</a></li>
+                <li class="nav-item"><a class="nav-link" href="rectoria.html">Rectoría</a></li>
+                <li class="nav-item"><a class="nav-link" href="calidad.html">Calidad</a></li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="bg-light text-center py-5">
+    <div class="container">
+        <h1 class="fw-bold mb-3">Nuestra Historia</h1>
+        <p class="lead text-muted">
+            Conoce la evolución del ITLA y su impacto en la educación tecnológica del país.
+        </p>
+    </div>
+</section>
+
+<!-- INTRO -->
+<section class="container py-5">
+    <div class="row align-items-center">
+
+        <div class="col-md-6 mb-4">
+            <img src="img/historia.jpg" class="img-fluid rounded shadow" alt="Historia ITLA">
+        </div>
+
+        <div class="col-md-6">
+            <h3 class="fw-bold mb-3">Origen del ITLA</h3>
+            <p>
+                El Instituto Tecnológico de Las Américas (ITLA) fue creado con el objetivo
+                de impulsar el desarrollo tecnológico en la República Dominicana.
+            </p>
+            <p>
+                Desde sus inicios, ha sido una institución clave en la formación de talento
+                en áreas digitales, innovación y tecnología.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- TIMELINE -->
+<section class="bg-light py-5">
+    <div class="container">
+
+        <h2 class="text-center fw-bold mb-5">Línea del Tiempo</h2>
+
+        <div class="row">
+
+            <div class="col-md-6 mb-4">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+                        <h5 class="fw-bold text-primary">2000</h5>
+                        <p>Fundación del ITLA como institución educativa tecnológica.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+                        <h5 class="fw-bold text-primary">2005</h5>
+                        <p>Expansión de programas académicos en áreas digitales.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+                        <h5 class="fw-bold text-primary">2015</h5>
+                        <p>Reconocimiento como institución líder en educación tecnológica.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+                        <h5 class="fw-bold text-primary">2024</h5>
+                        <p>Innovación continua con nuevas plataformas digitales y programas.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- IMPACTO -->
+<section class="container py-5 text-center">
+    <h2 class="fw-bold mb-4">Impacto en la Sociedad</h2>
+
+    <p class="lead text-muted">
+        El ITLA ha contribuido significativamente al desarrollo del talento tecnológico
+        en la República Dominicana, formando profesionales altamente capacitados.
+    </p>
+
+    <div class="row mt-4">
+
+        <div class="col-md-4">
+            <h3 class="text-primary fw-bold">+10,000</h3>
+            <p>Egresados</p>
+        </div>
+
+        <div class="col-md-4">
+            <h3 class="text-primary fw-bold">+20</h3>
+            <p>Años de trayectoria</p>
+        </div>
+
+        <div class="col-md-4">
+            <h3 class="text-primary fw-bold">Alta</h3>
+            <p>Demanda laboral</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center p-3">
+    <p class="mb-0">© 2026 ITLA - Rediseño Bootstrap</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
